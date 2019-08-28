@@ -86,10 +86,6 @@ layout
 	z-index: 1;
 }
 
-.wrap_col_rgt_navi {
-	float: right;
-}
-
 .column_top .wrap_col_main {
 	float: right;
 	width: 100%;
@@ -124,10 +120,6 @@ layout
 	margin-right: -200px;
 }
 
-.column_top .wrap_col_rgt_navi {
-	width: 200px;
-}
-
 .column_top .col_main {
 	margin-left: 200px;
 }
@@ -145,10 +137,6 @@ layout
 .format_free .wrap_col_lft_navi {
 	width: 200px;
 	margin-right: -200px;
-}
-
-.format_free .wrap_col_rgt_navi {
-	width: 200px;
 }
 
 .format_free .column_full .col_main {
@@ -178,11 +166,6 @@ layout
 	/* ここ直す */
 	width: 200px;
 	margin-right: -200px;
-}
-
-.format_event .wrap_col_rgt_navi {
-	/* ここ直す */
-	width: 200px;
 }
 
 .format_event .column_full .col_main {
