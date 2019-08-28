@@ -1,0 +1,61 @@
+﻿@charset "utf-8";
+
+/* ==================================================
+reset
+================================================== */
+body {
+	margin:0;
+	padding:0;
+	font-size:90%;
+	line-height:1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+input,
+blockquote {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+li {
+	line-height:1.2;
+}
+table {
+	font-size:100%;
+	line-height:1.6;
+}
+form,
+input,
+select {
+	font-size:100%;
+}
+a:link {
+	color:#0000CC;
+	background-color:transparent;
+}
+/* ==================================================
+skip
+================================================== */
+.skip {
+	position:absolute;
+	left:-3000px;
+	width:1px;
+	background-color:#FFFFFF;
+	color:#000000;
+	line-height:0.1;
+	font-size:0.1%;
+}
