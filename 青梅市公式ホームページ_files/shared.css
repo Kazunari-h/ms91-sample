@@ -80,27 +80,6 @@ layout
 	width: 100%;
 }
 
-.wrap_col_lft_navi {
-	float: left;
-	position: relative;
-	z-index: 1;
-}
-
-.column_top .wrap_col_main {
-	float: right;
-	width: 100%;
-}
-
-.column_full .wrap_col_main {
-	float: right;
-	width: 100%;
-}
-
-.column_rnavi .wrap_col_main {
-	float: left;
-	width: 100%;
-}
-
 .col_main {
 	padding: 0 20px 20px;
 }
@@ -115,15 +94,6 @@ layout
 	margin-right: 200px;
 }
 
-.column_top .wrap_col_lft_navi {
-	width: 200px;
-	margin-right: -200px;
-}
-
-.column_top .col_main {
-	margin-left: 200px;
-}
-
 /* free
 ============================== */
 .format_free .wrap_col_nm {
@@ -134,21 +104,7 @@ layout
 	margin-right: 200px;
 }
 
-.format_free .wrap_col_lft_navi {
-	width: 200px;
-	margin-right: -200px;
-}
-
-.format_free .column_full .col_main {
-	margin-left: 200px;
-}
-
-.format_free .column_rnavi .wrap_col_main {
-	margin-right: -200px;
-}
-
 .format_free .column_rnavi .col_main {
-	margin-right: 200px;
 	padding: 0 20px 20px 0;
 }
 
@@ -160,16 +116,6 @@ layout
 
 .format_event .wrap_col_nm2 {
 	margin-right: 200px;
-}
-
-.format_event .wrap_col_lft_navi {
-	/* ここ直す */
-	width: 200px;
-	margin-right: -200px;
-}
-
-.format_event .column_full .col_main {
-	margin-left: 200px;
 }
 
 /* ==================================================
