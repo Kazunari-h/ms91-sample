@@ -8,4 +8,19 @@
     text-align: center;
     margin: 10px 0;
     height: 40px;
+    line-height: 40px;
+}
+
+#pulldown {
+    display: none;
+}
+
+#pulldown:checked~#pulldown_menu li {
+    height: 40px;
+}
+
+#pulldown_menu li {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
 }
