@@ -1,0 +1,11 @@
+#smartphone_navi {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#smartphone_navi li a {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    height: 40px;
+}

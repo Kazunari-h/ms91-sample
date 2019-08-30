@@ -493,6 +493,19 @@ main
 
 #tmp_main {
 	width: 100%;
+	display: flex;
+}
+
+.wrap_col_main {
+	order: 2;
+}
+
+.wrap_col_lft_navi {
+	order: 1;
+}
+
+.wrap_col_rgt_navi {
+	order: 3;
 }
 
 /* free */
@@ -1172,4 +1185,23 @@ div.col3:after,
 * html div.col3,
 * html #tmp_main_publicity {
 	height: 1%;
+}
+
+/* スマホ用 CSS */
+@media screen and (max-width: 480px) {
+	#tmp_main {
+		flex-direction: column;
+	}
+
+	.wrap_col_main {
+		order: 1;
+	}
+
+	.wrap_col_lft_navi {
+		order: 2;
+	}
+
+	.wrap_col_rgt_navi {
+		order: 3;
+	}
 }
