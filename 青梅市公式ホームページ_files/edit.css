@@ -596,7 +596,7 @@ table.datatable table.datatable td {
 }
 
 #tmp_main_cat_cnt {
-	padding: 20px 0 0 20px;
+	padding: 20px 20px 0 20px;
 }
 
 #tmp_main_cat_cnt ul {
@@ -877,4 +877,18 @@ div.box_menu_cnt:after,
 	#tmp_tab_shincyaku dd {
 		margin-bottom: 0.5rem;
 	}
+
+	#tmp_main_cat_cnt ul {
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	#tmp_main_cat_cnt ul li {
+		float: none;
+		text-align: center;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+
 }
