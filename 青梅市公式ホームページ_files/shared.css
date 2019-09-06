@@ -261,12 +261,7 @@ navi
 	float: left;
 }
 
-#tmp_gnavi_sub ul {
-	padding: 4px 0;
-	list-style: none;
-	font-size: 0.1%;
-	line-height: 0.1;
-}
+#tmp_gnavi_sub ul{padding: 4px 0;list-style: none;font-size: 0.1%;line-height: 0.1;}
 
 #tmp_gnavi_sub ul li {
 	float: left;

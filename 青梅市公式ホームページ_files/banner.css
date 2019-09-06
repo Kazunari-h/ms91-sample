@@ -21,3 +21,33 @@
 .banner img {
     user-select: none;
 }
+
+.product_banner {
+    width: 200px;
+    display: flex;
+}
+
+.product_banner img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.banner_text {
+    width: 100px;
+    height: 100px;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.banner_text button {
+    background: none;
+    border: 2px black solid;
+    font-weight: bold;
+    color: black;
+}
+
+.banner_box a {
+    text-decoration: none;
+    color: black
+}
