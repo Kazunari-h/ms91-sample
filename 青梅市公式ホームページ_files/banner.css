@@ -25,6 +25,7 @@
 .product_banner {
     width: 200px;
     display: flex;
+    border: .5px solid lightgrey;
 }
 
 .product_banner img {
@@ -38,16 +39,67 @@
     height: 100px;
     padding: 0 5px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.banner_text p {
+    font-size: 0.6rem;
+    color: #393939;
+}
+
+.title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #111111;
 }
 
 .banner_text button {
     background: none;
-    border: 2px black solid;
+    border: 1px black solid;
     font-weight: bold;
     color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
 .banner_box a {
     text-decoration: none;
     color: black
+}
+
+.image_banner {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.image_banner p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+    user-select: none;
+    width: 100%;
+    text-align: center;
+    text-shadow: -1px -1px 5px #393939;
+    font-size: 1.2rem;
+}
+
+.product {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: 5px;
+    right: 5px;
 }
